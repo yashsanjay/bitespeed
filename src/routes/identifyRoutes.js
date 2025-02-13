@@ -3,6 +3,6 @@ const { identify } = require("../controllers/identifyController");
 
 const router = express.Router();
 
-router.post("/identify", identify);
+router.post("/", identify);
 
 module.exports = router;
